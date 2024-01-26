@@ -7,7 +7,7 @@ function Learner ({learner}) {
         <div> 
             
             <h2>{learner.name}</h2>
-            <h3>{learner.bio} </h3>
+            <h5>{learner.bio} </h5>
             {learner.scores.map((score, i)=>(
                 <Score score = {score} key={i} />
             ))}
